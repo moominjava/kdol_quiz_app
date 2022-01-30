@@ -1,4 +1,4 @@
-package com.example.kdol_quiz_app
+package com.leetori.kdol_quiz_app
 
 import io.flutter.embedding.android.FlutterActivity
 

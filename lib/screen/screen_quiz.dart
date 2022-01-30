@@ -1,12 +1,10 @@
-import 'package:admob_flutter/admob_flutter.dart';
+
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
-import 'package:kdol_quiz_app/main.dart';
 import 'package:kdol_quiz_app/model/model_quiz.dart';
 import 'package:kdol_quiz_app/screen/screen_result.dart';
 import 'package:kdol_quiz_app/widget/widget_candidate.dart';
-import 'package:kdol_quiz_app/model/model_quiz_list.dart';
 
 class QuizScreen extends StatefulWidget {
   List<Quiz> quizs;
@@ -142,12 +140,6 @@ class _QuizScreenState extends State<QuizScreen> {
             ),
           ),
         ),
-        Container(
-          child: AdmobBanner(
-            adUnitId: 'ca-app-pub-7606162224630973/3720644234',
-            adSize: AdmobBannerSize.BANNER,
-          ),
-        )
       ],
     );
   }
